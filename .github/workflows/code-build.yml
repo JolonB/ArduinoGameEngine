@@ -1,4 +1,4 @@
-name: CI
+name: build-code
 
 on: [push]
 
@@ -20,6 +20,6 @@ jobs:
             board: # optional, default is arduino:avr:uno
             # Directory containing Arduino libraries.
         Use this directory to install required 3rd-party libraries.
-            libraries: "lib"
+            libraries: # optional, default is libraries
             # Directory containing Arduino platforms
             hardware: # optional, default is hardware
