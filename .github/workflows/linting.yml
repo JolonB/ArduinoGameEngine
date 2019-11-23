@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v1
     - run:
       - name: markdownlint-cli
-      - uses: nosborn/github-action-markdown-cli@v1.1.1
+        uses: nosborn/github-action-markdown-cli@v1.1.1
         with:
           # configuration file (JSON or YAML)
           config_file: # optional
@@ -23,4 +23,4 @@ jobs:
           rules: # optional
     - run:
       - name: action-cpp-lint
-      - uses: CyberZHG/github-action-cpp-lint@0.0.2
+        uses: CyberZHG/github-action-cpp-lint@0.0.2
