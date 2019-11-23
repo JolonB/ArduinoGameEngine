@@ -12,5 +12,5 @@ a cell in the array which represents the top-left corner of the display, and
 the library will display the cells within a range of +7 in the x and y
 directions.
 
-The function header for drawing an image to the display is as follows:
+The function header for drawing an image to the display is as follows:  
 `void draw_img(bool **cells, byte x=0, byte y=0);`
